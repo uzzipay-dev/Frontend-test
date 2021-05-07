@@ -13,3 +13,4 @@ Como usuário, desejo clicar em um personagem da lista, para visualizar informa�
 Como usuário, desejo filtrar os personagens por nome, espécie e status.
 # Etapas
 # 1 - Fazer um fork desse repositório
+![image](https://user-images.githubusercontent.com/80771610/117510209-a9c2d400-af59-11eb-8b8c-208360db2488.png)
