@@ -1,0 +1,170 @@
+    @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /*Estilização do header - (input de busca, logo, altura e largura do header)*/
+
+    /**/
+
+    .h-container img {
+        width: 30%;
+        margin-top: -3%;
+    }
+
+    .h-container {
+        background: #070505;
+        width: 100%;
+        min-width: 1000px;
+        position: fixed;
+        height: 18%;
+        display: wrapper;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .logo {
+        float: left;
+        padding: 4px;
+        width: 70%;
+    }
+
+    .busca {
+        text-align: center;
+        width: 30%;
+        float: right;
+    }
+
+    .busca input {
+        background-image: url('../img/icon-pesquisa.svg');
+        background-repeat: no-repeat;
+        background-position: 96%;
+        padding-left: 8%;
+        width: 242%;
+        border-radius: 10px 0px 10px 0px;
+        height: 30px;
+        margin-top: 2em;
+        outline: 0px;
+        border: none;
+    }
+
+    .container-animação {
+        width: 100%;
+        min-width: 1000px;
+        height: 550px;
+        background: linear-gradient(0, #269108, #144e04);
+    }
+
+    /*Estilização do footer*/
+
+    .container-footer {
+        background: #070505;
+        width: 100%;
+        min-width: 1000px;
+        margin-top: 100%;
+    }
+
+    .Left {
+        width: 12%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .Right {
+        width: 17%;
+        margin-top: -9.2%;
+        margin-left: 80%;
+    }
+
+    .container-footer p {
+        font-family: Mate Sc;
+        color: #12afc8;
+        font-size: 26px;
+        font-weight: 900;
+        margin-left: 33%;
+        margin-top: -5em;
+    }
+
+    /*
+Estilização para o card dos personagens
+*/
+
+    .card {
+        border: 1px solid #D1DDE2;
+        background: white;
+        width: 19.1%;
+        min-width: 200px;
+        border-radius: 10px;
+        float: left;
+        margin-right: -2%;
+        margin-left: 4%;
+        margin-bottom: -8%;
+        font-family: "Open Sans";
+        margin-top: 12%;
+        font-size: 13px;
+    }
+
+    .thumb-img {
+        text-align: center;
+    }
+
+    .card a {
+        color: #3793D4;
+        text-decoration: none;
+    }
+
+    div.card:hover {
+        background: #E2E2E2;
+    }
+
+    .card .card-block {
+        margin-left: 4%;
+        margin-bottom: 9%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .card-block .card-title {
+        color: #3793D4;
+        font-size: 16px;
+        margin: 0;
+        /*min-height: 35px;*/
+    }
+
+    .card .card-block .card-text {
+        min-height: 100px;
+    }
+
+    h5 {
+        /*infomações sobre o peresonagem em cor preta*/
+        color: #000;
+    }
+
+    /* Background color nome do personagem */
+
+    .card-name {
+        width: 100%;
+        background: #3793D4;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card-name p {
+        text-align: center;
+        font-family: Mate Sc;
+    }
+
+    /*style para deixa o button invisivel por baixo do card*/
+
+    button.invisible {
+        width: 0;
+        height: 0;
+    }
+
+    .characters {
+        padding-bottom: 55%;
+    }
