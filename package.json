@@ -9,6 +9,9 @@
     "add": "^2.0.6",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "css-loader": "^5.2.6",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
     "node": "^16.1.0",
     "node-sass": "^6.0.0",
     "npm": "6.x",
@@ -20,19 +23,23 @@
     "react-flippy": "^1.1.0",
     "react-js-pagination": "^3.0.3",
     "react-scripts": "4.0.3",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2",
     "yarn": "^1.22.10"
-    
   },
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "node server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +58,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }

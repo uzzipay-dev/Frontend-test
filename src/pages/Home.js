@@ -63,22 +63,21 @@ function App() {
 
   return (
     <>
-
+      {/*Appbar caixa input de pesquisa, logo Rick and Morty */}
       <header className="h-container">
         <div className="container-img">
           <div className="logo">
             <img src={logoImg} alt="logo" />
             <div className="busca">
-              <input placeholder="look for a character " onChange={(sear) => {
+              <input placeholder="filtre por nome, especie, status ou raça" onChange={(sear) => {
                 setSearch(sear.target.value)
               }}
                 value={search} type="text" />
             </div>
           </div>
-
         </div>
       </header>
-
+        {/*Corpo -> card com informações de personagem no /components/accordion*/}
         <div className="characters">
           {results.map((result, index) => (
 

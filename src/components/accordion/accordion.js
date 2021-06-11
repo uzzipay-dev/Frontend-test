@@ -40,9 +40,6 @@ const Accordion = (props) => {
       </>
       )
       }
-      
-
-
     </div>
   )
 }
