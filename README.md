@@ -1,4 +1,4 @@
-# Desafui Uzzipay
+# Desafio Uzzipay
 
 O Desafio proposto foi a criação de uma aplicação que consumisse uma API pública ( https://rickandmortyapi.com/ ) usando algum framework JavaScript Front-End.
 
@@ -22,9 +22,9 @@ npm run serve
 
 ### Tecnologias usadas.
 
-Node.JS https://nodejs.org/pt-br/docs/
-Vue.js https://vuejs.org/
-Lodash https://lodash.com/
-Axios https://github.com/axios/axios
+Node.JS https://nodejs.org/pt-br/docs/ </br>
+Vue.js https://vuejs.org/ </br>
+Lodash https://lodash.com/ </br>
+Axios https://github.com/axios/axios </br>
 
 Projeto rodando no Vercel ( https://rickandmorty-omega.vercel.app/ )
